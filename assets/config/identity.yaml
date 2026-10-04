@@ -1,0 +1,17 @@
+identity:
+  # Base URLs
+  base_url: "http://localhost:8080/api/v1"
+  auth_base_url: "http://localhost:8085/api/v1"
+  user_service_url: "http://localhost:8085/api/v1"
+  role_service_url: "http://localhost:8085/api/v1"
+
+  # Logging and features
+  enable_logging: true
+  features:
+    user_management: true
+    role_management: true
+    login_history: true
+
+  # UI Customizations
+  drawer:
+    title: "Identity Admin"
