@@ -1,5 +1,5 @@
 class UserEndpoints {
-  static const String _base = 'users';
+  static const String _base = '/users';
 
   /// `GET /api/v1/users` — paginated user list
   static const String list = _base;
@@ -29,5 +29,5 @@ class UserEndpoints {
   static String updateUserRoles(String id) => '$_base/$id/roles';
 
   /// `GET /api/v1/roles/select` — fetch select list of roles
-  static const String rolesSelect = 'roles/select';
+  static const String rolesSelect = '/roles/select';
 }
